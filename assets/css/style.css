@@ -719,6 +719,7 @@ section {
   padding-bottom: 0;
 }
 
+/* resume circles */
 .resume .resume-item::before {
   content: "";
   position: absolute;
@@ -814,7 +815,7 @@ section {
   /* Make sure all circles are at the same spot */
   .left-2::after,
   .right-2::after {
-    left: 18px;
+    left: 22px;
   }
 
   .left-2::before {
