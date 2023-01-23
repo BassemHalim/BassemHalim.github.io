@@ -467,9 +467,7 @@ section {
   position: relative;
   z-index: 2;
 }
-.padding{
-  height: 50px;
-}
+
 @media (max-width: 575px) {
   .section-title h2 {
     font-size: 28px;
