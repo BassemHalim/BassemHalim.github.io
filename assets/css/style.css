@@ -8,8 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-*{
-  font-size: 16px;;
+* {
+  font-size: 16px;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -35,12 +35,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-.split{ display: block;}
-.split span{
+.split {
+  display: block;
+}
+.split span {
   display: block;
   float: right;
 }
-
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -142,7 +143,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #ffb727;
 }
 
@@ -181,11 +182,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #ffb727;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -197,7 +198,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -209,7 +210,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -277,7 +278,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #ffb727;
 }
 
@@ -312,11 +313,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #ffb727;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -477,7 +478,6 @@ section {
   .section-title span {
     font-size: 38px;
   }
-  
 }
 
 /*--------------------------------------------------------------
@@ -517,11 +517,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -648,7 +648,6 @@ section {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   color: #3b434a;
-  
 }
 
 .about .skills-content .progress .skill .val {
@@ -660,7 +659,6 @@ section {
   border-radius: 50px;
   max-width: 500px;
   background: #e6e8eb;
-
 }
 
 .about .skills-content .progress-bar {
@@ -669,7 +667,6 @@ section {
   transition: 0.9s;
   background-color: #ffb727;
   border-radius: 50px;
-
 }
 
 /*--------------------------------------------------------------
@@ -733,7 +730,6 @@ section {
   border: 2px solid #82909c;
 }
 
-
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
@@ -779,9 +775,7 @@ section {
 .left-2 {
   padding: 0px 40px 20px 0px;
   left: 0;
-
 }
-
 
 /* Place the container to the right */
 .right-2 {
@@ -790,7 +784,7 @@ section {
 }
 
 /* position the circles relative to the container */
-.left-2::after{
+.left-2::after {
   right: -6px;
 }
 
@@ -829,12 +823,17 @@ section {
   }
 }
 
-.card-img-top{
+.card-img-top {
   width: 94%;
   margin: auto;
   margin-top: 3%;
   border-radius: 10px;
+}
 
+.card-img-clickable {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 /*--------------------------------------------------------------
 # Contact Me
