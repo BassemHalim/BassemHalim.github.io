@@ -622,7 +622,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.jpg") center center no-repeat;
+  background: url("../img/me.webp") center center no-repeat;
   background-size: cover;
   height: 400px;
   width: 400px;
