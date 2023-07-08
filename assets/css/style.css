@@ -825,6 +825,7 @@ section {
 
 .card-img-top {
   width: 94%;
+  height: auto;
   margin: auto;
   margin-top: 3%;
   border-radius: 10px;
