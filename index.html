@@ -30,7 +30,8 @@
 
     <!-- Favicons -->
     <link href="/public/img/terminal.png" rel="icon" />
-    <link href="output.css" rel="stylesheet" />
+    <link href="/public/style.css" rel="stylesheet" />
+    <!-- <script src="https://kit.fontawesome.com/42e401de24.js" crossorigin="anonymous"></script> -->
   </head>
 
   <body
@@ -44,10 +45,7 @@
         </div>
         <div><a class="mx-4 font-semibold" href="#contact">Contact</a></div>
         <div>
-          <a
-            class="m-2 font-semibold"
-            href="/public/Bassem_Halim_resume.pdf"
-            download
+          <a class="m-2 font-semibold" href="/public/Bassem_Halim_Resume.pdf"
             >Resume</a
           >
         </div>
@@ -59,8 +57,11 @@
     <section id="hero">
       <div class="flex flex-col md:flex-row justify-center m-8 flex-wrap">
         <img src="/public/img/me.jpg" class="w-64 rounded-full self-center" />
-        <div class="flex flex-col items-center m-12">
-          <div class="text-3xl lg:text-7xl">👋 Hi! <br /></div>
+        <div class="flex flex-col items-center m-12 group">
+          <div class="text-3xl lg:text-7xl flex">
+            <div class="group-hover:rotate-12 pr-3">👋</div>
+            Hi!
+          </div>
           <div class="text-3xl lg:text-7xl">I'm Bassem Halim</div>
           <a href="#about" class="btn-scroll scrollto"
             ><i class="bx bx-chevron-down"></i
@@ -93,6 +94,7 @@
           <div class="flex flex-col md:flex-row">
             <div class="flex flex-col text-xl m-4 mx-8 leading-8">
               <div class="font-semibold text-2xl">Languages</div>
+
               <ul>
                 <li>Java</li>
                 <li>Python</li>
@@ -137,8 +139,9 @@
           <div class="m-4">
             <div class="m-2">
               <!-- <h3>Education</h3> -->
-              <div class="font-semibold text-2xl">
-                University of California, Berkeley
+              <div class="font-semibold text-2xl flex">
+                <img src="/public/img/berkeley-logo.svg" class="w-16 pr-3" />
+                <h1 class="self-center">University of California, Berkeley</h1>
               </div>
               <h5>2020 - 2022</h5>
               <p>
@@ -227,44 +230,51 @@
       <div class="m-8 w-4/5 items-center self-center" id="projects">
         <div class="font-semibold text-2xl">Projects</div>
         <div class="flex flex-col items-center">
-          <div
-            class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">Chatroom</div>
-              <div class="italic">Jun. 2023 - Jun. 2023</div>
-            </div>
-            <div class="italic">
-              Go, Gin, PostgreSQL, Websockets, React, TS, Tailwindcss, Docker
-            </div>
-            <a
-              href="https://github.com/BassemHalim/Chatroom"
-              class="self-center"
+          <div class="relative">
+            <div
+              class="absolute w-full lg:w-1/2 m-8 p-6 bg-[#c0c0c1] blur-md -inset-0.5 rounded-2xl hidden peer-hover/card:flex"
+            ></div>
+            <div
+              id="card"
+              class="peer/card relative self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl bg-[#0f0f23] flex flex-col"
             >
-              <img
-                src="/public/img/projects/chatroom-demo.gif"
-                class="rounded-2xl self-center "
-                alt="chatroom-demo"
-              />
-            </a>
-            <div class="">
-              <ul class="list-disc p-2">
-                <li>
-                  Created a full-stack chatroom app with a new message
-                  broadcasting using WebSockets.
-                </li>
-                <li>
-                  Implemented a scalable backend system with secure user
-                  authentication (JWT tokens) and efficient message storage and
-                  retrieval through a REST API.
-                </li>
-                <li>
-                  Developed a message upvote and downvote feature that can be
-                  safely scalled horizontally.
-                </li>
-              </ul>
+              <div class="flex flex-row justify-between">
+                <div class="font-bold text-xl">Chatroom</div>
+                <div class="italic">Jun. 2023 - Jun. 2023</div>
+              </div>
+              <div class="italic">
+                Go, Gin, PostgreSQL, Websockets, React, TS, Tailwindcss, Docker
+              </div>
+              <a
+                href="https://github.com/BassemHalim/Chatroom"
+                class="self-center"
+              >
+                <img
+                  src="/public/img/projects/chatroom-demo.gif"
+                  class="rounded-2xl self-center"
+                  alt="chatroom-demo"
+                />
+              </a>
+              <div class="">
+                <ul class="list-disc p-2">
+                  <li>
+                    Created a full-stack chatroom app with a new message
+                    broadcasting using WebSockets.
+                  </li>
+                  <li>
+                    Implemented a scalable backend system with secure user
+                    authentication (JWT tokens) and efficient message storage
+                    and retrieval through a REST API.
+                  </li>
+                  <li>
+                    Developed a message upvote and downvote feature that can be
+                    safely scalled horizontally.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
+
           <div
             class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
           >
@@ -313,7 +323,8 @@
               <div class="italic">Mar. 2023 - present</div>
             </div>
             <div class="italic">
-              Java, Spring Boot, TS, React Native, Playwright, AWS DynamoDB, AWS S3, Docker
+              Java, Spring Boot, TS, React Native, Playwright, AWS DynamoDB, AWS
+              S3, Docker
             </div>
             <a
               href="https://github.com/BassemHalim/Cyclopath"
