@@ -1,715 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-GPCNYP7PWD"
-    ></script>
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-GPCNYP7PWD"
+		></script>
 
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "G-GPCNYP7PWD");
-    </script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "G-GPCNYP7PWD");
+		</script>
 
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Bassem Halim</title>
-    <meta
-      property="og:image"
-      content="https://bassemhalim.github.io/assets/img/me.webp"
-    />
-    <meta property="og:url" content="bassemhalim.github.io" />
-    <meta property="og:title" content="Bassem Halim" />
-    <meta property="og:description" content="personal website" />
+		<title>Bassem Halim</title>
+		<meta
+			property="og:image"
+			content="https://bassemhalim.github.io/assets/img/me.webp"
+		/>
+		<meta property="og:url" content="bassemhalim.github.io" />
+		<meta property="og:title" content="Bassem Halim" />
+		<meta property="og:description" content="personal website" />
 
-    <!-- Favicons -->
-    <link href="/public/img/terminal.png" rel="icon" />
-    <link href="/public/style.css" rel="stylesheet" />
-    <!-- <script src="https://kit.fontawesome.com/42e401de24.js" crossorigin="anonymous"></script> -->
-  </head>
+		<!-- Favicons -->
+		<link href="/public/img/terminal.png" rel="icon" />
+		<link href="/public/style.css" rel="stylesheet" />
+		<!-- <script src="https://kit.fontawesome.com/42e401de24.js" crossorigin="anonymous"></script> -->
+	</head>
 
-  <body
-    class="h-full bg-[#0f0f23] text-[#c0c0c1] text-base font-mono tracking-tight"
-  >
-    <header class="sticky top-0 bg-[#0f0f23] p-2">
-      <nav id="navbar" class="flex flex-row justify-center m-2 text-2xl">
-        <div><a class="mx-4 font-semibold" href="#about">About</a></div>
-        <div>
-          <a class="mx-4 font-semibold" href="#projects">Projects</a>
-        </div>
-        <div><a class="mx-4 font-semibold" href="#contact">Contact</a></div>
-        <div>
-          <a class="m-2 font-semibold" href="/public/Bassem_Halim_Resume.pdf"
-            >Resume</a
-          >
-        </div>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-    </header>
+	<body
+		class="h-full bg-[#0f0f23] text-[#c0c0c1] text-base font-mono tracking-tight"
+	>
+		<header class="sticky top-0 bg-[#0f0f23] p-2">
+			<nav id="navbar" class="flex flex-row justify-center m-2 text-2xl">
+				<div><a class="mx-4 font-semibold" href="#about">About</a></div>
+				<div>
+					<a class="mx-4 font-semibold" href="#projects">Projects</a>
+				</div>
+				<div>
+					<a class="mx-4 font-semibold" href="#contact">Contact</a>
+				</div>
+				<div>
+					<a
+						class="m-2 font-semibold"
+						href="/public/Bassem_Halim_Resume.pdf"
+						>Resume</a
+					>
+				</div>
+				<i class="bi bi-list mobile-nav-toggle"></i>
+			</nav>
+		</header>
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero">
-      <div class="flex flex-col md:flex-row justify-center m-8 flex-wrap">
-        <img src="/public/img/me.jpg" class="w-64 rounded-full self-center" />
-        <div class="flex flex-col items-center m-12 group">
-          <div class="text-3xl lg:text-7xl flex">
-            <div class="group-hover:rotate-12 pr-3">👋</div>
-            Hi!
-          </div>
-          <div class="text-3xl lg:text-7xl">I'm Bassem Halim</div>
-          <a href="#about" class="btn-scroll scrollto"
-            ><i class="bx bx-chevron-down"></i
-          ></a>
-        </div>
-      </div>
-    </section>
+		<!-- ======= Hero Section ======= -->
+		<section id="hero">
+			<div class="flex flex-col md:flex-row justify-center m-8 flex-wrap">
+				<img
+					src="/public/img/me.jpg"
+					class="w-64 rounded-full self-center"
+				/>
+				<div class="flex flex-col items-center m-12 group">
+					<div class="text-3xl lg:text-7xl flex">
+						<div class="group-hover:rotate-12 pr-3">👋</div>
+						Hi!
+					</div>
+					<div class="text-3xl lg:text-7xl">I'm Bassem Halim</div>
+					<a href="#about" class="btn-scroll scrollto"
+						><i class="bx bx-chevron-down"></i
+					></a>
+				</div>
+			</div>
+		</section>
 
-    <main class="text-base flex-col flex">
-      <!-- ======= About Me Section ======= -->
-      <section id="about" class="flex flex-col">
-        <div class="items-center flex flex-col">
-          <div class="text-xl text-center items-center w-3/4 m-8">
-            <p>
-              As a recent graduate of the University of California, Berkeley
-              with a Bachelor of Science in Electrical Engineering and Computer
-              Science (EECS), I am eager to leverage my skills and experience to
-              make an impact in the technology industry. I am particularly
-              interested in backend development and embedded systems positions.
-              My internship experience as a software developer intern at Pi-Lit
-              gave me hands-on experience in the research and development of a
-              decimeter-level accurate GPS receiver, writing custom drivers, and
-              improving internal tools.I am eager to join an organization that
-              would help me grow and develop my skills further while making
-              meaningful contributions.
-            </p>
-          </div>
+		<main class="text-base flex-col flex">
+			<!-- ======= About Me Section ======= -->
+			<section id="about" class="flex flex-col">
+				<div class="items-center flex flex-col">
+					<div class="text-xl text-center items-center w-3/4 m-8">
+						<p>
+							As a recent graduate of the University of
+							California, Berkeley with a Bachelor of Science in
+							Electrical Engineering and Computer Science (EECS),
+							I am eager to leverage my skills and experience to
+							make an impact in the technology industry. I am
+							particularly interested in backend development and
+							embedded systems positions. My internship experience
+							as a software developer intern at Pi-Lit gave me
+							hands-on experience in the research and development
+							of a decimeter-level accurate GPS receiver, writing
+							custom drivers, and improving internal tools.I am
+							eager to join an organization that would help me
+							grow and develop my skills further while making
+							meaningful contributions.
+						</p>
+					</div>
 
-          <!-- skills -->
-          <div class="flex flex-col md:flex-row">
-            <div class="flex flex-col text-xl m-4 mx-8 leading-8">
-              <div class="font-semibold text-2xl">Languages</div>
+					<!-- skills -->
+					<div class="flex flex-col md:flex-row">
+						<div class="flex flex-col text-xl m-4 mx-8 leading-8">
+							<div class="font-semibold text-2xl">Languages</div>
 
-              <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>TypeScript</li>
-                <li>Go</li>
-                <li>C</li>
-                <li>C++</li>
-                <li>SQL</li>
-                <li>HTML5</li>
-                <li>CSS</li>
-              </ul>
-            </div>
-            <div class="flex flex-col text-xl m-4 mx-8 leading-8">
-              <div class="font-semibold text-2xl">Frameworks</div>
-              <ul>
-                <li>Spring Boot</li>
-                <li>Django</li>
-                <li>React Native</li>
-                <li>Playwright</li>
-                <li>PyTorch</li>
-                <li>NumPy</li>
-                <li>Pandas</li>
-                <li>Git</li>
-              </ul>
-            </div>
-            <div class="flex flex-col text-xl m-4 mx-8 leading-8">
-              <div class="font-semibold text-2xl">Databases</div>
-              <ul>
-                <li>AWS DynamoDB</li>
-                <li>AWS S3</li>
-                <li>MongoDB</li>
-                <li>PostgreSQL</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+							<ul>
+								<li>Java</li>
+								<li>Python</li>
+								<li>TypeScript</li>
+								<li>Go</li>
+								<li>C</li>
+								<li>C++</li>
+								<li>SQL</li>
+								<li>HTML5</li>
+								<li>CSS</li>
+							</ul>
+						</div>
+						<div class="flex flex-col text-xl m-4 mx-8 leading-8">
+							<div class="font-semibold text-2xl">Frameworks</div>
+							<ul>
+								<li>Spring Boot</li>
+								<li>Django</li>
+								<li>React Native</li>
+								<li>Playwright</li>
+								<li>PyTorch</li>
+								<li>NumPy</li>
+								<li>Pandas</li>
+								<li>Git</li>
+							</ul>
+						</div>
+						<div class="flex flex-col text-xl m-4 mx-8 leading-8">
+							<div class="font-semibold text-2xl">Databases</div>
+							<ul>
+								<li>AWS DynamoDB</li>
+								<li>AWS S3</li>
+								<li>MongoDB</li>
+								<li>PostgreSQL</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
-        <!-- ======= My Resume Section ======= -->
-        <div
-          class="flex flex-col lg:flex-row justify-center m-4 w-4/5 self-center"
-        >
-          <div class="m-4">
-            <div class="m-2">
-              <!-- <h3>Education</h3> -->
-              <div class="font-semibold text-2xl flex">
-                <img src="/public/img/berkeley-logo.svg" class="w-16 pr-3" />
-                <h1 class="self-center">University of California, Berkeley</h1>
-              </div>
-              <h5>2020 - 2022</h5>
-              <p>
-                <em
-                  >Bachelor of Science in Electrical Engineering and Computer
-                  Science
-                </em>
-              </p>
-              <ul>
-                <li>GPA: 3.54</li>
-                <li>
-                  coursework:
-                  <ul class="p-2">
-                    <li>
-                      CS 61A: Structure and Interpretation of Computer Programs
-                    </li>
-                    <li>CS 61B: Data Structures</li>
-                    <li>CS 61C: Machine Structures</li>
-                    <li>CS 70: Discrete Maths and Probability</li>
-                    <li>EECS 149: Embedded Systems</li>
-                    <li>CS 161: Computer Security</li>
-                    <li>CS 162: Operating Systems</li>
-                    <li>
-                      CS 170: Efficient Algorithms and Intractable Problems
-                    </li>
-                    <li>CS 186: Databases</li>
-                    <li>CS 188: Intro to AI</li>
-                    <li>
-                      CS 194-26: Intro to Computer Vision and Computational
-                      Photography
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="m-2">
-              <div class="font-semibold text-2xl">Irvine Valley College</div>
-              <h5>2018 - 2020</h5>
-              <ul>
-                <li>GPA: 4.00</li>
-                <li>
-                  coursework:
-                  <ul class="p-2">
-                    <li>C programming</li>
-                    <li>C++ Object Oriented Programming</li>
-                    <li>x86 assembly</li>
-                    <li>circuit analysis</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <!-- <h3>Professional Experience</h3> -->
-            <div class="m-4">
-              <div class="font-semibold text-2xl">
-                Software Developer Intern
-              </div>
-              <h5>May - Aug 2022</h5>
-              <div class="flex flex-row justify-between">
-                <div>Pi-Lit (startup)</div>
-                <div>Tustin, CA, USA</div>
-              </div>
-              <ul class="list-disc p-2">
-                <li>
-                  Contributed to the research and development of a
-                  decimeter-level accurate GPS receiver.
-                </li>
-                <li>Wrote a custom driver for a GNSS module.</li>
-                <li>
-                  Helped testing and debugging an IoT impact detection system.
-                </li>
-                <li>
-                  Improved an internal logging tool’s efficiency by 60% as
-                  measured by CPU utilization
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End My Resume Section -->
+				<!-- ======= My Resume Section ======= -->
+				<div
+					class="flex flex-col lg:flex-row justify-center m-4 w-4/5 self-center"
+				>
+					<div class="m-4">
+						<div class="m-2">
+							<!-- <h3>Education</h3> -->
+							<div class="font-semibold text-2xl flex">
+								<img
+									src="/public/img/berkeley-logo.svg"
+									class="w-16 pr-3"
+								/>
+								<h1 class="self-center">
+									University of California, Berkeley
+								</h1>
+							</div>
+							<h5>2020 - 2022</h5>
+							<p>
+								<em
+									>Bachelor of Science in Electrical
+									Engineering and Computer Science
+								</em>
+							</p>
+							<ul>
+								<li>GPA: 3.54</li>
+								<li>
+									coursework:
+									<ul class="p-2">
+										<li>
+											CS 61A: Structure and Interpretation
+											of Computer Programs
+										</li>
+										<li>CS 61B: Data Structures</li>
+										<li>CS 61C: Machine Structures</li>
+										<li>
+											CS 70: Discrete Maths and
+											Probability
+										</li>
+										<li>EECS 149: Embedded Systems</li>
+										<li>CS 161: Computer Security</li>
+										<li>CS 162: Operating Systems</li>
+										<li>
+											CS 170: Efficient Algorithms and
+											Intractable Problems
+										</li>
+										<li>CS 186: Databases</li>
+										<li>CS 188: Intro to AI</li>
+										<li>
+											CS 194-26: Intro to Computer Vision
+											and Computational Photography
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="m-2">
+							<div class="font-semibold text-2xl">
+								Irvine Valley College
+							</div>
+							<h5>2018 - 2020</h5>
+							<ul>
+								<li>GPA: 4.00</li>
+								<li>
+									coursework:
+									<ul class="p-2">
+										<li>C programming</li>
+										<li>C++ Object Oriented Programming</li>
+										<li>x86 assembly</li>
+										<li>circuit analysis</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<!-- <h3>Professional Experience</h3> -->
+						<div class="m-4">
+							<div class="font-semibold text-2xl">
+								Software Developer Intern
+							</div>
+							<h5>May - Aug 2022</h5>
+							<div class="flex flex-row justify-between">
+								<div>Pi-Lit (startup)</div>
+								<div>Tustin, CA, USA</div>
+							</div>
+							<ul class="list-disc p-2">
+								<li>
+									Contributed to the research and development
+									of a decimeter-level accurate GPS receiver.
+								</li>
+								<li>
+									Wrote a custom driver for a GNSS module.
+								</li>
+								<li>
+									Helped testing and debugging an IoT impact
+									detection system.
+								</li>
+								<li>
+									Improved an internal logging tool’s
+									efficiency by 60% as measured by CPU
+									utilization
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End My Resume Section -->
 
-      <!-- ======= My Projects Section ======= -->
+			<!-- ======= My Projects Section ======= -->
 
-      <div class="m-8 w-4/5 items-center self-center" id="projects">
-        <div class="font-semibold text-2xl">Projects</div>
-        <div class="flex flex-col items-center">
-          <div class="relative">
-            <div
-              class="absolute w-full lg:w-1/2 m-8 p-6 bg-[#c0c0c1] blur-md -inset-0.5 rounded-2xl hidden peer-hover/card:flex"
-            ></div>
-            <div
-              id="card"
-              class="peer/card relative self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl bg-[#0f0f23] flex flex-col"
-            >
-              <div class="flex flex-row justify-between">
-                <div class="font-bold text-xl">Chatroom</div>
-                <div class="italic">Jun. 2023 - Jun. 2023</div>
-              </div>
-              <div class="italic">
-                Go, Gin, PostgreSQL, Websockets, React, TS, Tailwindcss, Docker
-              </div>
-              <a
-                href="https://github.com/BassemHalim/Chatroom"
-                class="self-center"
-              >
-                <img
-                  src="/public/img/projects/chatroom-demo.gif"
-                  class="rounded-2xl self-center"
-                  alt="chatroom-demo"
-                />
-              </a>
-              <div class="">
-                <ul class="list-disc p-2">
-                  <li>
-                    Created a full-stack chatroom app with a new message
-                    broadcasting using WebSockets.
-                  </li>
-                  <li>
-                    Implemented a scalable backend system with secure user
-                    authentication (JWT tokens) and efficient message storage
-                    and retrieval through a REST API.
-                  </li>
-                  <li>
-                    Developed a message upvote and downvote feature that can be
-                    safely scalled horizontally.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+			<div class="m-8 w-4/5 items-center self-center" id="projects">
+				<div class="font-semibold text-2xl">Projects</div>
+				<div class="flex flex-col items-center">
+					<div
+						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">Chatroom</div>
+							<div class="italic">Jun. 2023 - Jun. 2023</div>
+						</div>
+						<div class="italic">
+							Go, Gin, PostgreSQL, Websockets, React, TS,
+							Tailwindcss, Docker
+						</div>
+						<a
+							href="https://github.com/BassemHalim/Chatroom"
+							class="self-center"
+						>
+							<img
+								src="/public/img/projects/chatroom-demo.gif"
+								class="rounded-2xl self-center"
+								alt="chatroom-demo"
+							/>
+						</a>
+						<div class="">
+							<ul class="list-disc p-2">
+								<li>
+									Created a full-stack chatroom app with a new
+									message broadcasting using WebSockets.
+								</li>
+								<li>
+									Implemented a scalable backend system with
+									secure user authentication (JWT tokens) and
+									efficient message storage and retrieval
+									through a REST API.
+								</li>
+								<li>
+									Developed a message upvote and downvote
+									feature that can be safely scalled
+									horizontally.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">
-                Real-Time Video Streaming Server
-              </div>
-              <div class="italic">Jun. 2023 - Jun. 2023</div>
-            </div>
-            <div class="italic">
-              Python, WebRTC (aioRTC), openCV, numpy, Docker
-            </div>
-            <a
-              href="https://github.com/BassemHalim/webrtc-demo"
-              class="self-center"
-            >
-              <img
-                src="/public/img/projects/bouncing-ball.gif"
-                class="rounded-2xl overflow-hidden object-contain"
-                alt="bouncing ball video"
-              />
-            </a>
-            <div class="">
-              <ul class="list-disc p-2">
-                <li>
-                  Developed a web server to generate a dynamic video stream
-                  showcasing a bouncing ball animation.
-                </li>
-                <li>
-                  Established a secure WebRTC video stream to clients, utilizing
-                  TCP socket signaling.
-                </li>
-                <li>
-                  Used openCV to estimate the ball’s position and transmit the
-                  estimates back to server through a data channel.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">
+								Real-Time Video Streaming Server
+							</div>
+							<div class="italic">Jun. 2023 - Jun. 2023</div>
+						</div>
+						<div class="italic">
+							Python, WebRTC (aioRTC), openCV, numpy, Docker
+						</div>
+						<a
+							href="https://github.com/BassemHalim/webrtc-demo"
+							class="self-center"
+						>
+							<img
+								src="/public/img/projects/bouncing-ball.gif"
+								class="rounded-2xl overflow-hidden object-contain"
+								alt="bouncing ball video"
+							/>
+						</a>
+						<div class="">
+							<ul class="list-disc p-2">
+								<li>
+									Developed a web server to generate a dynamic
+									video stream showcasing a bouncing ball
+									animation.
+								</li>
+								<li>
+									Established a secure WebRTC video stream to
+									clients, utilizing TCP socket signaling.
+								</li>
+								<li>
+									Used openCV to estimate the ball’s position
+									and transmit the estimates back to server
+									through a data channel.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">Cyclopath</div>
-              <div class="italic">Mar. 2023 - present</div>
-            </div>
-            <div class="italic">
-              Java, Spring Boot, TS, React Native, Playwright, AWS DynamoDB, AWS
-              S3, Docker
-            </div>
-            <a
-              href="https://github.com/BassemHalim/Cyclopath"
-              class="self-center"
-            >
-              <img
-                src="/public/img/projects/cyclopath.png"
-                class="rounded-2xl m-4 w-80 overflow-hidden object-contain"
-                alt="Responsive image"
-              />
-            </a>
-            <div class="">
-              <ul class="list-disc p-2">
-                <li>
-                  Developed a full-stack cycling workout app providing users
-                  with detailed workout information, including route, weather,
-                  distance, speed etc.
-                </li>
-                <li>
-                  Utilized AWS DynamoDB to store workout details and S3 to store
-                  the generated workout static map.
-                </li>
-                <li>
-                  Integrated Mapbox Maps API and a weather API for dynamic route
-                  visualization and workout insights.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">Cyclopath</div>
+							<div class="italic">Mar. 2023 - present</div>
+						</div>
+						<div class="italic">
+							Java, Spring Boot, TS, React Native, Playwright, AWS
+							DynamoDB, AWS S3, Docker
+						</div>
+						<a
+							href="https://github.com/BassemHalim/Cyclopath"
+							class="self-center"
+						>
+							<img
+								src="/public/img/projects/cyclopath.png"
+								class="rounded-2xl m-4 w-80 overflow-hidden object-contain"
+								alt="Responsive image"
+							/>
+						</a>
+						<div class="">
+							<ul class="list-disc p-2">
+								<li>
+									Developed a full-stack cycling workout app
+									providing users with detailed workout
+									information, including route, weather,
+									distance, speed etc.
+								</li>
+								<li>
+									Utilized AWS DynamoDB to store workout
+									details and S3 to store the generated
+									workout static map.
+								</li>
+								<li>
+									Integrated Mapbox Maps API and a weather API
+									for dynamic route visualization and workout
+									insights.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div>
-              <div class="flex flex-row justify-between">
-                <div class="font-bold text-xl">To-Do List</div>
-                <div class="italic">Mar. 2023 - Mar. 2023</div>
-              </div>
-              <div class="italic">Python, Django, PostgreSQL</div>
-              <ul class="list-disc p-2">
-                <li>
-                  Built a To-do service with a RESTful API that enables users to
-                  create, read, update, and delete tasks.
-                </li>
-                <li>
-                  Implemented user registration and authentication functionality
-                  to secure user data.
-                </li>
-                <li>
-                  Utilized PostgreSQL as the database for storing tasks and
-                  integrated Django’s ORM to efficiently query and modify task
-                  data.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">Face Morphing</div>
-              <div class="italic">Oct. 2022 - Oct. 2022</div>
-            </div>
-            <div class="italic">Python, Numpy, opneCV</div>
-            <video
-              autoplay
-              loop
-              class="rounded-2xl m-4 object-contain overflow-hidden self-center"
-            >
-              <source
-                src="/public/img/projects/face_morph.webm"
-                type="video/webm"
-              />
-            </video>
-            <div>
-              <ul class="list-disc p-2">
-                <li>
-                  Implemented a face morphing algorithm that produces a morph
-                  animation from a face to another.
-                </li>
-                <li>
-                  Used affine matrix transformation to transform corresponding
-                  triangles from source image to destination image.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div>
+							<div class="flex flex-row justify-between">
+								<div class="font-bold text-xl">To-Do List</div>
+								<div class="italic">Mar. 2023 - Mar. 2023</div>
+							</div>
+							<div class="italic">Python, Django, PostgreSQL</div>
+							<ul class="list-disc p-2">
+								<li>
+									Built a To-do service with a RESTful API
+									that enables users to create, read, update,
+									and delete tasks.
+								</li>
+								<li>
+									Implemented user registration and
+									authentication functionality to secure user
+									data.
+								</li>
+								<li>
+									Utilized PostgreSQL as the database for
+									storing tasks and integrated Django’s ORM to
+									efficiently query and modify task data.
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div
+						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">Face Morphing</div>
+							<div class="italic">Oct. 2022 - Oct. 2022</div>
+						</div>
+						<div class="italic">Python, Numpy, opneCV</div>
+						<video
+							autoplay
+							loop
+							muted
+							playsinline
+							class="rounded-2xl m-4 object-contain overflow-hidden self-center"
+						>
+							<source
+								src="/public/img/projects/face_morph.webm"
+								type="video/webm"
+							/>
+						</video>
+						<div>
+							<ul class="list-disc p-2">
+								<li>
+									Implemented a face morphing algorithm that
+									produces a morph animation from a face to
+									another.
+								</li>
+								<li>
+									Used affine matrix transformation to
+									transform corresponding triangles from
+									source image to destination image.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div>
-              <div class="flex flex-row justify-between">
-                <div class="font-bold text-xl">
-                  End-to-End Encrypted File sharing system
-                </div>
-                <div class="italic">Mar. 2022 - May 2022</div>
-              </div>
-              <div class="italic">Go</div>
-              <ul class="list-disc p-2">
-                <li>
-                  Used symmetric encryption to encrypt and decrypt the users'
-                  data and allow for multiple user sessions.
-                </li>
-                <li>
-                  Developed an algorithm to securely and efficiently store,
-                  load, and append to files.
-                </li>
-                <li>
-                  Used asymmetric encryption to share files securely using
-                  public key encryption and digital signatures.
-                </li>
-                <li>
-                  Added a revoke user functionality that prevents a revoked user
-                  and their children from reading future modification to the
-                  shared file.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div>
+							<div class="flex flex-row justify-between">
+								<div class="font-bold text-xl">
+									End-to-End Encrypted File sharing system
+								</div>
+								<div class="italic">Mar. 2022 - May 2022</div>
+							</div>
+							<div class="italic">Go</div>
+							<ul class="list-disc p-2">
+								<li>
+									Used symmetric encryption to encrypt and
+									decrypt the users' data and allow for
+									multiple user sessions.
+								</li>
+								<li>
+									Developed an algorithm to securely and
+									efficiently store, load, and append to
+									files.
+								</li>
+								<li>
+									Used asymmetric encryption to share files
+									securely using public key encryption and
+									digital signatures.
+								</li>
+								<li>
+									Added a revoke user functionality that
+									prevents a revoked user and their children
+									from reading future modification to the
+									shared file.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="card">
-              <div class="flex flex-row justify-between">
-                <div class="font-bold text-xl">PintOS</div>
-                <div class="italic">Feb. 2022- Apr. 2022</div>
-              </div>
-              <div class="italic">C, make, gdb</div>
-              <ul class="list-disc p-2">
-                <li>
-                  Worked in a team of 4 to implement various functionalities in
-                  an educational OS for the x86 architecture.
-                </li>
-                <li>
-                  Implemented the functionalities to create threads, fork
-                  processes, and pass arguments to user programs.
-                </li>
-                <li>
-                  Improved the file system speed by adding a buffer cache.
-                </li>
-                <li>Helped with the development of an MLFQ scheduler.</li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="card">
+							<div class="flex flex-row justify-between">
+								<div class="font-bold text-xl">PintOS</div>
+								<div class="italic">Feb. 2022- Apr. 2022</div>
+							</div>
+							<div class="italic">C, make, gdb</div>
+							<ul class="list-disc p-2">
+								<li>
+									Worked in a team of 4 to implement various
+									functionalities in an educational OS for the
+									x86 architecture.
+								</li>
+								<li>
+									Implemented the functionalities to create
+									threads, fork processes, and pass arguments
+									to user programs.
+								</li>
+								<li>
+									Improved the file system speed by adding a
+									buffer cache.
+								</li>
+								<li>
+									Helped with the development of an MLFQ
+									scheduler.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">Digit Classifier</div>
-              <div class="italic">Apr. 2022 - Apr. 2022</div>
-            </div>
-            <div class="italic">Python</div>
-            <img
-              src="/public/img/projects/digits.webp"
-              class="rounded-2xl m-4 object-contain max-h-80 overflow-hidden self-center"
-              alt="digital alarm clock"
-            />
-            <div>
-              <ul class="list-disc p-2">
-                <li>Used machine learning to classify handwritten digits.</li>
-                <li>
-                  Achieved an accuracy of 97% by designing and training a neural
-                  network that recognizes patterns in handwritten digits.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">
+								Digit Classifier
+							</div>
+							<div class="italic">Apr. 2022 - Apr. 2022</div>
+						</div>
+						<div class="italic">Python</div>
+						<img
+							src="/public/img/projects/digits.webp"
+							class="rounded-2xl m-4 object-contain max-h-80 overflow-hidden self-center"
+							alt="digital alarm clock"
+						/>
+						<div>
+							<ul class="list-disc p-2">
+								<li>
+									Used machine learning to classify
+									handwritten digits.
+								</li>
+								<li>
+									Achieved an accuracy of 97% by designing and
+									training a neural network that recognizes
+									patterns in handwritten digits.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">Maze Solving Robot</div>
-              <div class="italic">Oct. 2021 -Dec. 2021</div>
-            </div>
-            <div class="italic">C, socket programming</div>
-            <img
-              src="/public/img/projects/robot.webp"
-              class="rounded-2xl object-contain w-80 m-4 overflow-hidden self-center"
-              alt="Responsive image"
-            />
-            <div>
-              <ul class="list-disc p-2">
-                <li>
-                  Designed and built the hardware of a differential-drive robot
-                  that uses a LiDAR to map its environment.
-                </li>
-                <li>
-                  Developed the software that collects the LiDAR scan data and
-                  sends it using UDP protocol to a server.
-                </li>
-                <li>
-                  Used a serial communication protocol (UART) to control a
-                  differential-drive robot.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">
+								Maze Solving Robot
+							</div>
+							<div class="italic">Oct. 2021 -Dec. 2021</div>
+						</div>
+						<div class="italic">C, socket programming</div>
+						<img
+							src="/public/img/projects/robot.webp"
+							class="rounded-2xl object-contain w-80 m-4 overflow-hidden self-center"
+							alt="Responsive image"
+						/>
+						<div>
+							<ul class="list-disc p-2">
+								<li>
+									Designed and built the hardware of a
+									differential-drive robot that uses a LiDAR
+									to map its environment.
+								</li>
+								<li>
+									Developed the software that collects the
+									LiDAR scan data and sends it using UDP
+									protocol to a server.
+								</li>
+								<li>
+									Used a serial communication protocol (UART)
+									to control a differential-drive robot.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">2D World Exploration Game</div>
-              <div class="italic">Apr. 2021 - May 2021</div>
-            </div>
-            <div class="italic">Java</div>
-            <img
-              src="/public/img/projects/Maze.webp"
-              class="rounded-2xl m-4 object-contain w-80 overflow-hidden self-center"
-              alt="Responsive image"
-            />
-            <div>
-              <ul class="list-disc p-2">
-                <li>
-                  Collaborated with a teammate to develop a random world
-                  generation engine, with a GUI, that generates a random 2D
-                  explorable world based on a string of numbers inputted by the
-                  use.
-                </li>
-                <li>
-                  An avatar is placed randomly in the generated world and the
-                  user can interact with the avatar using the keyboard.
-                </li>
-                <li>
-                  Implemented the ability to save and reload the game locally.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">
+								2D World Exploration Game
+							</div>
+							<div class="italic">Apr. 2021 - May 2021</div>
+						</div>
+						<div class="italic">Java</div>
+						<img
+							src="/public/img/projects/Maze.webp"
+							class="rounded-2xl m-4 object-contain w-80 overflow-hidden self-center"
+							alt="Responsive image"
+						/>
+						<div>
+							<ul class="list-disc p-2">
+								<li>
+									Collaborated with a teammate to develop a
+									random world generation engine, with a GUI,
+									that generates a random 2D explorable world
+									based on a string of numbers inputted by the
+									use.
+								</li>
+								<li>
+									An avatar is placed randomly in the
+									generated world and the user can interact
+									with the avatar using the keyboard.
+								</li>
+								<li>
+									Implemented the ability to save and reload
+									the game locally.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">Gitlet</div>
-              <div class="italic">Feb. 2021 - Apr. 2021</div>
-            </div>
-            <div class="italic">Java</div>
-            <img
-              src="/public/img/projects/git.webp"
-              class="rounded-2xl m-4 w-80 overflow-hidden self-center"
-              alt="Responsive image"
-            />
-            <div>
-              <ul class="list-disc p-2">
-                <li>
-                  Designed and implemented a local version control system with a
-                  command-line interface that can handle 15 commands similar to
-                  Git commands.
-                </li>
-                <li>
-                  Functionality includes add, commit, branch, checkout, merge,
-                  reset, log, merge, etc.
-                </li>
-                <li>
-                  Efficiently stored previous versions of the project, and the
-                  commit tree, locally using multiple data structures such as
-                  Hash tables, Hash sets, Linked Lists.
-                </li>
-              </ul>
-            </div>
-          </div>
+					<div
+						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">Gitlet</div>
+							<div class="italic">Feb. 2021 - Apr. 2021</div>
+						</div>
+						<div class="italic">Java</div>
+						<img
+							src="/public/img/projects/git.webp"
+							class="rounded-2xl m-4 w-80 overflow-hidden self-center"
+							alt="Responsive image"
+						/>
+						<div>
+							<ul class="list-disc p-2">
+								<li>
+									Designed and implemented a local version
+									control system with a command-line interface
+									that can handle 15 commands similar to Git
+									commands.
+								</li>
+								<li>
+									Functionality includes add, commit, branch,
+									checkout, merge, reset, log, merge, etc.
+								</li>
+								<li>
+									Efficiently stored previous versions of the
+									project, and the commit tree, locally using
+									multiple data structures such as Hash
+									tables, Hash sets, Linked Lists.
+								</li>
+							</ul>
+						</div>
+					</div>
 
-          <div
-            class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
-          >
-            <div class="flex flex-row justify-between">
-              <div class="font-bold text-xl">Digital Alarm Clock</div>
-              <div>June 2020 - June 2020</div>
-            </div>
-            <div class="italic">C</div>
-            <img
-              src="/public/img/projects/clock.webp"
-              class="rounded-2xl m-4 w-80 overflow-hidden self-center"
-              alt="cyclopath"
-            />
-            <div>
-              <ul class="list-disc p-2">
-                <li>
-                  Designed and built the circuit of a digital alarm clock that
-                  runs on a microcontroller.
-                </li>
-                <li>
-                  Developed the firmware that runs on the custom hardware and
-                  communicates with a time-keeping IC in I2C.
-                </li>
-                <li>
-                  Devised the 7-segment display from scratch and implemented a
-                  multiplexing algorithm to update each digit individually with
-                  minimal amount of IO ports.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+					<div
+						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+					>
+						<div class="flex flex-row justify-between">
+							<div class="font-bold text-xl">
+								Digital Alarm Clock
+							</div>
+							<div>June 2020 - June 2020</div>
+						</div>
+						<div class="italic">C</div>
+						<img
+							src="/public/img/projects/clock.webp"
+							class="rounded-2xl m-4 w-80 overflow-hidden self-center"
+							alt="cyclopath"
+						/>
+						<div>
+							<ul class="list-disc p-2">
+								<li>
+									Designed and built the circuit of a digital
+									alarm clock that runs on a microcontroller.
+								</li>
+								<li>
+									Developed the firmware that runs on the
+									custom hardware and communicates with a
+									time-keeping IC in I2C.
+								</li>
+								<li>
+									Devised the 7-segment display from scratch
+									and implemented a multiplexing algorithm to
+									update each digit individually with minimal
+									amount of IO ports.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <!-- End My Portfolio Section -->
+			<!-- End My Portfolio Section -->
 
-      <!-- ======= Contact Me Section ======= -->
-      <div class="flex flex-col items-center p-4" id="contact">
-        <div class="flex flex-col">
-          <div class="flex flex-row self-center m-2">
-            <div class="m-4">
-              <a
-                href="https://www.linkedin.com/in/bassem-halim/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src="/public/img/linkedin.png" />
-              </a>
-            </div>
-            <div class="m-4">
-              <a
-                href="https://github.com/BassemHalim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <!-- <img src="/public/img/github.png" class="" /> -->
-                <?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-                <svg
-                  enable-background="new 0 0 32 32"
-                  height="48px"
-                  id="Layer_1"
-                  version="1.0"
-                  viewBox="0 0 32 32"
-                  width="48px"
-                  xml:space="preserve"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                >
-                  <path
-                    clip-rule="evenodd"
-                    d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z"
-                    fill="#c0c0c1"
-                    fill-rule="evenodd"
-                  />
-                  <g />
-                  <g />
-                  <g />
-                  <g />
-                  <g />
-                  <g />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div class="flex flex-row items-center">
-            <div class="mx-4">
-              bassemhalim99<!-- sdfjsdhfkjdsfsadfypcs --><!-- fsdf-->@<!-- fsdf-->gmail.com
-            </div>
-            <div class="mx-4">
-              (818)
-              <!-- fsdf-->486<!-- fsdfdsfds-->-2166
-            </div>
-          </div>
-        </div>
-      </div>
-      <a
-        href="#"
-        class="self-end px-4 m-4 sticky bottom-0 hover:shadow-md hover:shadow-[#c0c0c1]"
-      >
-        <?xml version="1.0" ?><svg
-          baseProfile="tiny"
-          height="48px"
-          version="1.2"
-          viewBox="0 0 24 24"
-          width="48px"
-          xml:space="preserve"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
-          <g id="Layer_1">
-            <path
-              fill="#c0c0c1"
-              d="M13,5.586l-4.707,4.707c-0.391,0.391-0.391,1.023,0,1.414s1.023,0.391,1.414,0L12,9.414V17c0,0.552,0.447,1,1,1   s1-0.448,1-1V9.414l2.293,2.293C16.488,11.902,16.744,12,17,12s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L13,5.586z   "
-            />
-          </g>
-        </svg>
-      </a>
-      <!-- End Contact Me Section -->
-    </main>
-  </body>
+			<!-- ======= Contact Me Section ======= -->
+			<div class="flex flex-col items-center p-4" id="contact">
+				<div class="flex flex-col">
+					<div class="flex flex-row self-center m-2">
+						<div class="m-4">
+							<a
+								href="https://www.linkedin.com/in/bassem-halim/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img src="/public/img/linkedin.png" />
+							</a>
+						</div>
+						<div class="m-4">
+							<a
+								href="https://github.com/BassemHalim"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<!-- <img src="/public/img/github.png" class="" /> -->
+								<?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+								<svg
+									enable-background="new 0 0 32 32"
+									height="48px"
+									id="Layer_1"
+									version="1.0"
+									viewBox="0 0 32 32"
+									width="48px"
+									xml:space="preserve"
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+								>
+									<path
+										clip-rule="evenodd"
+										d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z"
+										fill="#c0c0c1"
+										fill-rule="evenodd"
+									/>
+									<g />
+									<g />
+									<g />
+									<g />
+									<g />
+									<g />
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="flex flex-row items-center">
+						<div class="mx-4">
+							bassemhalim99<!-- sdfjsdhfkjdsfsadfypcs --><!-- fsdf-->@<!-- fsdf-->gmail.com
+						</div>
+						<div class="mx-4">
+							(818)
+							<!-- fsdf-->486<!-- fsdfdsfds-->-2166
+						</div>
+					</div>
+				</div>
+			</div>
+			<a
+				href="#"
+				class="self-end px-4 m-4 sticky bottom-0 hover:shadow-md hover:shadow-[#c0c0c1]"
+			>
+				<?xml version="1.0" ?><svg
+					baseProfile="tiny"
+					height="48px"
+					version="1.2"
+					viewBox="0 0 24 24"
+					width="48px"
+					xml:space="preserve"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+				>
+					<g id="Layer_1">
+						<path
+							fill="#c0c0c1"
+							d="M13,5.586l-4.707,4.707c-0.391,0.391-0.391,1.023,0,1.414s1.023,0.391,1.414,0L12,9.414V17c0,0.552,0.447,1,1,1   s1-0.448,1-1V9.414l2.293,2.293C16.488,11.902,16.744,12,17,12s0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414L13,5.586z   "
+						/>
+					</g>
+				</svg>
+			</a>
+			<!-- End Contact Me Section -->
+		</main>
+	</body>
 </html>
