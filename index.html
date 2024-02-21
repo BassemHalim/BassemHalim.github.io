@@ -36,7 +36,9 @@
 	<body
 		class="h-full bg-[#0f0f23] text-[#c0c0c1] text-base font-mono tracking-tight w-full"
 	>
-		<header class="sticky top-0 bg-[#0f0f23] p-2 justify-center w-full">
+		<header
+			class="sticky top-0 bg-[#0f0f23] p-2 justify-center w-full z-10"
+		>
 			<nav
 				id="navbar"
 				class="flex flex-row place-content-center flex-wrap m-2 text-2xl"
@@ -59,38 +61,39 @@
 			</nav>
 		</header>
 
-		<!-- ======= Hero Section ======= -->
-		<section id="hero">
-			<div class="flex flex-col md:flex-row justify-center m-8 flex-wrap">
-				<img
-					src="/public/img/me.jpg"
-					class="w-64 rounded-full self-center"
-				/>
-				<div class="flex flex-col items-center m-12 group">
-					<div class="text-3xl lg:text-7xl flex">
-						<div class="group-hover:rotate-12 pr-3">👋</div>
-						Hi!
+		<main class="text-base flex-col flex relative">
+			<!-- ======= Hero Section ======= -->
+			<section id="hero">
+				<div
+					class="flex flex-col md:flex-row justify-center m-8 flex-wrap"
+				>
+					<img
+						src="/public/img/me.jpg"
+						class="w-64 rounded-full self-center"
+					/>
+					<div class="flex flex-col items-center m-12 group">
+						<div class="text-3xl lg:text-7xl flex">
+							<div class="group-hover:rotate-12 pr-3">👋</div>
+							Hi!
+						</div>
+						<button
+							class="text-3xl lg:text-7xl text-center"
+							onclick="play()"
+						>
+							I'm Bassem Halim
+						</button>
+						<a href="#about" class="btn-scroll scrollto"
+							><i class="bx bx-chevron-down"></i
+						></a>
 					</div>
-					<button
-						class="text-3xl lg:text-7xl text-center"
-						onclick="play()"
-					>
-						I'm Bassem Halim
-					</button>
-					<a href="#about" class="btn-scroll scrollto"
-						><i class="bx bx-chevron-down"></i
-					></a>
 				</div>
-			</div>
-		</section>
-		<script>
-			function play() {
-				let audio = new Audio("public/name.mp3");
-				audio.play();
-			}
-		</script>
-
-		<main class="text-base flex-col flex">
+			</section>
+			<script>
+				function play() {
+					let audio = new Audio("public/name.mp3");
+					audio.play();
+				}
+			</script>
 			<!-- ======= About Me Section ======= -->
 			<section id="about" class="flex flex-col">
 				<div class="items-center flex flex-col">
@@ -475,7 +478,7 @@
 
 			<!-- ======= My Projects Section ======= -->
 
-			<div class="m-8 w-4/5 items-center self-center" id="projects">
+			<section class="m-8 w-4/5 items-center self-center" id="projects">
 				<div class="font-semibold text-2xl text-center sm:text-start">
 					Projects
 				</div>
@@ -921,15 +924,12 @@
 						</div>
 					</div>
 				</div>
-			</div>
-
-			<!-- End My Portfolio Section -->
-
-			<!-- ======= Contact Me Section ======= -->
-			<div class="flex flex-col items-center p-4" id="contact">
+			</section>
+		</main>
+		<footer class="m-4 relative" id="contact">
 				<div class="flex flex-col">
 					<div class="flex flex-row self-center m-2">
-						<div class="m-4">
+						<div class="m-4 hover:shadow-[#c0c0c1_0px_0px_14px_1px] rounded-md">
 							<a
 								href="https://www.linkedin.com/in/bassem-halim/"
 								target="_blank"
@@ -938,7 +938,7 @@
 								<img src="/public/img/linkedin.png" />
 							</a>
 						</div>
-						<div class="m-4">
+						<div class="m-4 hover:shadow-[#c0c0c1_0px_0px_14px_1px] rounded-full">
 							<a
 								href="https://github.com/BassemHalim"
 								target="_blank"
@@ -978,11 +978,11 @@
 							<!-- fsdf-->486<!-- fsdfdsfds-->-2166
 						</div>
 					</div>
-				</div>
+
 			</div>
 			<a
 				href="#"
-				class="self-end px-4 m-4 sticky bottom-0 hover:shadow-md hover:shadow-[#c0c0c1]"
+				class="sm:absolute bottom-0 right-0 hover:shadow-[#c0c0c1_0px_0px_14px_1px] rounded-md m-2 justify-end"
 			>
 				<?xml version="1.0" ?><svg
 					baseProfile="tiny"
@@ -993,6 +993,7 @@
 					xml:space="preserve"
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
+					class="float-right"
 				>
 					<g id="Layer_1">
 						<path
@@ -1002,7 +1003,6 @@
 					</g>
 				</svg>
 			</a>
-			<!-- End Contact Me Section -->
-		</main>
+		</footer>
 	</body>
 </html>
