@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 	<head>
 		<!-- Google tag (gtag.js) -->
 		<script
@@ -35,10 +35,10 @@
 	</head>
 
 	<body
-		class="h-full bg-[#0f0f23] text-[#c0c0c1] text-base font-mono tracking-tight"
+		class="h-full bg-[#0f0f23] text-[#c0c0c1] text-base font-mono tracking-tight w-screen"
 	>
-		<header class="sticky top-0 bg-[#0f0f23] p-2">
-			<nav id="navbar" class="flex flex-row justify-center m-2 text-2xl">
+		<header class="sticky top-0 bg-[#0f0f23] p-2 justify-center w-full">
+			<nav id="navbar" class="flex flex-row place-content-center flex-wrap m-2 text-2xl">
 				<div><a class="mx-4 font-semibold" href="#about">About</a></div>
 				<div>
 					<a class="mx-4 font-semibold" href="#projects">Projects</a>
@@ -69,7 +69,7 @@
 						<div class="group-hover:rotate-12 pr-3">👋</div>
 						Hi!
 					</div>
-					<div class="text-3xl lg:text-7xl">I'm Bassem Halim</div>
+					<div class="text-3xl lg:text-7xl text-center">I'm Bassem Halim</div>
 					<a href="#about" class="btn-scroll scrollto"
 						><i class="bx bx-chevron-down"></i
 					></a>
@@ -105,7 +105,7 @@
 						<div class="flex flex-col text-xl m-4 mx-8 leading-8">
 							<div class="font-semibold text-2xl">Languages</div>
 
-							<ul>
+							<ul class="text-center">
 								<li>Java</li>
 								<li>Python</li>
 								<li>TypeScript</li>
@@ -119,7 +119,7 @@
 						</div>
 						<div class="flex flex-col text-xl m-4 mx-8 leading-8">
 							<div class="font-semibold text-2xl">Frameworks</div>
-							<ul>
+							<ul class="text-center">
 								<li>Spring Boot</li>
 								<li>Django</li>
 								<li>React Native</li>
@@ -132,7 +132,7 @@
 						</div>
 						<div class="flex flex-col text-xl m-4 mx-8 leading-8">
 							<div class="font-semibold text-2xl">Databases</div>
-							<ul>
+							<ul class="text-center">
 								<li>AWS DynamoDB</li>
 								<li>AWS S3</li>
 								<li>MongoDB</li>
@@ -254,12 +254,12 @@
 			<!-- ======= My Projects Section ======= -->
 
 			<div class="m-8 w-4/5 items-center self-center" id="projects">
-				<div class="font-semibold text-2xl">Projects</div>
-				<div class="flex flex-col items-center">
+				<div class="font-semibold text-2xl text-center sm:text-start">Projects</div>
+				<div class="flex flex-col place-content-center w-full">
 					<div
-						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row flex-wrap justify-between">
 							<div class="font-bold text-xl">Chatroom</div>
 							<div class="italic">Jun. 2023 - Jun. 2023</div>
 						</div>
@@ -299,9 +299,9 @@
 					</div>
 
 					<div
-						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start lg:self-end w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">
 								Real-Time Video Streaming Server
 							</div>
@@ -341,9 +341,9 @@
 					</div>
 
 					<div
-						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">Cyclopath</div>
 							<div class="italic">Mar. 2023 - present</div>
 						</div>
@@ -384,10 +384,10 @@
 					</div>
 
 					<div
-						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start lg:self-end w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
 						<div>
-							<div class="flex flex-row justify-between">
+							<div class="flex flex-col sm:flex-row justify-between">
 								<div class="font-bold text-xl">To-Do List</div>
 								<div class="italic">Mar. 2023 - Mar. 2023</div>
 							</div>
@@ -412,9 +412,9 @@
 						</div>
 					</div>
 					<div
-						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">Face Morphing</div>
 							<div class="italic">Oct. 2022 - Oct. 2022</div>
 						</div>
@@ -448,10 +448,10 @@
 					</div>
 
 					<div
-						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start lg:self-end w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
 						<div>
-							<div class="flex flex-row justify-between">
+							<div class="flex flex-col sm:flex-row justify-between">
 								<div class="font-bold text-xl">
 									End-to-End Encrypted File sharing system
 								</div>
@@ -485,10 +485,10 @@
 					</div>
 
 					<div
-						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
 						<div class="card">
-							<div class="flex flex-row justify-between">
+							<div class="flex flex-col sm:flex-row justify-between">
 								<div class="font-bold text-xl">PintOS</div>
 								<div class="italic">Feb. 2022- Apr. 2022</div>
 							</div>
@@ -517,9 +517,9 @@
 					</div>
 
 					<div
-						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start lg:self-end w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">
 								Digit Classifier
 							</div>
@@ -547,9 +547,9 @@
 					</div>
 
 					<div
-						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">
 								Maze Solving Robot
 							</div>
@@ -582,9 +582,9 @@
 					</div>
 
 					<div
-						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start lg:self-end w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">
 								2D World Exploration Game
 							</div>
@@ -619,9 +619,9 @@
 					</div>
 
 					<div
-						class="self-start w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">Gitlet</div>
 							<div class="italic">Feb. 2021 - Apr. 2021</div>
 						</div>
@@ -654,9 +654,9 @@
 					</div>
 
 					<div
-						class="self-start lg:self-end w-full lg:w-1/2 m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
+						class="self-start lg:self-end w-full lg:w-1/2 sm:m-8 p-6 rounded-2xl hover:shadow-md hover:shadow-[#c0c0c1] flex flex-col"
 					>
-						<div class="flex flex-row justify-between">
+						<div class="flex flex-col sm:flex-row justify-between">
 							<div class="font-bold text-xl">
 								Digital Alarm Clock
 							</div>
@@ -731,17 +731,11 @@
 										fill="#c0c0c1"
 										fill-rule="evenodd"
 									/>
-									<g />
-									<g />
-									<g />
-									<g />
-									<g />
-									<g />
 								</svg>
 							</a>
 						</div>
 					</div>
-					<div class="flex flex-row items-center">
+					<div class="flex flex-row items-center flex-wrap place-content-center">
 						<div class="mx-4">
 							bassemhalim99<!-- sdfjsdhfkjdsfsadfypcs --><!-- fsdf-->@<!-- fsdf-->gmail.com
 						</div>
